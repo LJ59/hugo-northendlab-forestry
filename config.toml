@@ -1,20 +1,15 @@
 baseURL = "/"
 disqusShortname = ""
-languageCode = "en-us"
+languageCode = "fr-fr"
 paginate = "5"
 summaryLength = "10"
 theme = "github.com/themefisher/northendlab-hugo"
-title = "Hugo Northendlab Forestry starter"
-[[menu.footer]]
-URL = "tools"
-name = "tools"
-weight = 2
+title = "Labo Forestry starter"
 [[menu.footer]]
 URL = "contact"
 name = "Contact"
-url = "kontakt@lenord.fr"
 weight = 1
-[[menu.main]]
+[[menu.footer]]
 URL = "tools"
 name = "tools"
 weight = 2
@@ -22,6 +17,10 @@ weight = 2
 URL = "contact"
 name = "Contact"
 weight = 1
+[[menu.main]]
+URL = "tools"
+name = "tools"
+weight = 2
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
 [params]
