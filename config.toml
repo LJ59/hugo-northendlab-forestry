@@ -6,6 +6,9 @@ summaryLength = "10"
 theme = "github.com/themefisher/northendlab-hugo"
 title = "Labo Forestry starter"
 [[menu.footer]]
+name = "test_1"
+weight = 3
+[[menu.footer]]
 URL = "tools"
 name = "tools"
 weight = 2
